@@ -59,7 +59,7 @@ public class StatsService {
         int sumMonth = 0;
 
         for (int i = 0; i < sales.length; i++){
-            if (sales[i] > averageSumSales(sales)) {
+            if (sales[i] > average) {
                 sumMonth++;
             }
         }
